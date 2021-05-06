@@ -1,0 +1,105 @@
+ body{
+    background-image: url(slikas14.jpg);
+}
+header{
+    background-image: url("slika1111.jpg");
+    background-position: top;
+    background-size: 300pt;   
+    border: solid black; 
+    height: 90px;
+}
+p{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}   
+h2{
+    font-size: 40pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+h3{
+    font-size: 60pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(202, 202, 139);
+}
+a{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.9vw;
+    color: rgb(3, 56, 3);
+}
+P{
+    color: rgb(73, 29, 0);
+}
+table, th, td{
+    width: 50%;
+    border: 2px solid rgb(0, 0, 0);
+}
+td{
+    color: rgb(255, 0, 0);
+    font-size: 20pt;
+}
+h6{
+    color: brown;
+    text-align: left;
+    margin-left: 150pt;
+    font-size: 30pt;
+}
+li{
+    display: inline-block;
+    padding: 15px 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(253, 0, 0);
+    transition: 0.5s;
+}
+a:hover{
+    color: rgb(253, 0, 0);
+    transition: 0.5s;
+}
+span{
+    color: rgb(0, 0, 0);
+}
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+div{
+    float: left;
+    color: rgb(255, 0, 0);
+    font-size: 3.6vw;
+    font-weight: bold;
+}
+.nav{
+    background-color: rgba(65, 105, 225, 0);
+    color: rgba(65, 105, 225, 0);
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 0 0;
+}
+.nav >li{
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 12px;
+}
+.nav > li > a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.nav > li > a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
